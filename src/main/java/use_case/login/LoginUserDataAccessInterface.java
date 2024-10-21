@@ -27,5 +27,15 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * For Checkstyle.
+     * @param name for checkstyle
+     */
     void setCurrentUser(String name);
+
+    /**
+     * For Checkstyle.
+     * @return for checkstyle
+     */
+    String getCurrentUser();
 }
